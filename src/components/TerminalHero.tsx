@@ -64,7 +64,7 @@ export default function TerminalHero({ onComplete }: TerminalHeroProps) {
       <section aria-label="Terminal de inicialização" className="relative w-full max-w-3xl">
         <div className="mb-4 flex items-center justify-between border-b border-white/10 pb-3 text-[9px] uppercase tracking-[0.2em] text-white/35 sm:text-[10px]">
           <span>Wired access terminal / VF-01</span>
-          <span className="text-signal">Build 2026.11</span>
+          <span className="text-signal">Sinal ativo</span>
         </div>
         <div className="min-h-[18rem] border border-signal/20 bg-[#050b0a]/85 p-5 shadow-[0_0_70px_rgba(66,245,197,.07)] sm:p-9">
           <div className="mb-7 text-[10px] leading-6 text-white/35 sm:text-xs">

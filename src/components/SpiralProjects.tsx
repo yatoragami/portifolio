@@ -143,9 +143,6 @@ export default function SpiralProjects() {
             ))}
           </div>
         </div>
-        <p className="mt-10 font-mono text-[9px] leading-5 text-white/30">
-          Projetos públicos identificados no GitHub em nov/2026. Cases profissionais são descritos sem expor código ou dados internos.
-        </p>
       </div>
     </section>
   );
