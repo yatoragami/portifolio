@@ -1,7 +1,6 @@
-import { lazy, Suspense, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { lazy, Suspense } from "react";
+import { motion } from "framer-motion";
 import { ArrowDown, ArrowUpRight, Github } from "lucide-react";
-import TerminalHero from "./components/TerminalHero";
 import DialogueAbout from "./components/DialogueAbout";
 import CircuitsExperience from "./components/CircuitsExperience";
 import SpiralProjects from "./components/SpiralProjects";
@@ -142,15 +141,5 @@ function Portfolio() {
 }
 
 export default function App() {
-  const [unlocked, setUnlocked] = useState(false);
-
-  return (
-    <AnimatePresence mode="wait">
-      {unlocked ? (
-        <Portfolio key="portfolio" />
-      ) : (
-        <TerminalHero key="terminal" onComplete={() => setUnlocked(true)} />
-      )}
-    </AnimatePresence>
-  );
+  return <Portfolio />;
 }
