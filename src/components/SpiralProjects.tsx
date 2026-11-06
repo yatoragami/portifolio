@@ -80,8 +80,8 @@ export default function SpiralProjects() {
             <p className="eyebrow"><span>04</span> // projetos & evolução</p>
             <h2 className="section-title mt-5">O próximo<br />limite é <span className="text-acid">o começo.</span></h2>
             <p className="mt-6 max-w-md text-sm leading-7 text-white/50">
-              De Assistente de TI a Engenheiro de Software / QA: uma espiral de experiências,
-              estudo e novos desafios.
+              Da experiência como Assistente de TI à construção do meu caminho em desenvolvimento
+              de software e QA: uma espiral de experiências, estudo e novos desafios.
             </p>
             <div className="mt-9 flex items-center gap-3 font-mono text-[9px] uppercase tracking-[0.12em] text-signal">
               <Compass size={14} /> Próxima coordenada: software + qualidade
